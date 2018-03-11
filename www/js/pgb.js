@@ -62,8 +62,8 @@ function checkConnection() {
     navigator.notification.alert('Connection type: ' + states[networkState]);
 }
 
-function sendSMS() {
-		var number = document.getElementById('phoneNumber').value;
+function sendSms() {
+	var number = document.getElementById('phoneNumber').value;
         var message = document.getElementById('message').value;
 
         //CONFIGURATION
